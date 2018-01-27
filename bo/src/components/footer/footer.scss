@@ -1,0 +1,21 @@
+//Colors
+$primary:           #6f4f8b;
+$dark:              #222222;
+$success:           #4ee2c0;
+$incorrect:         #fd3d50;
+$color-hover:       #fd3d50;
+
+$blue:              #38435a;
+$white:             #ffffff;
+$black:             #000000; 
+$grey:              #efefef;
+
+.footer{
+    background-color: $dark;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    p{
+        color: blue;
+    }
+}

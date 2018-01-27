@@ -1,0 +1,27 @@
+//Colors
+$primaryC1:         #6f4f8b;
+
+$bluePrimary:       #1a7dd7;
+$blueDark:          #2f3640;
+$destaqueColor:     #fc4349;
+
+
+//Padroes
+$white:             #ffffff;
+$black:             #000000;
+$grey:              #222222;
+$greyLight:         #999999;
+$bgGlobal:          #efefef;
+
+.clientesEstado{
+  height: 100%;
+  border-radius: 3px;
+  .content{
+    background-color: $white;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: -50px;
+    border-radius: 3px;
+  }
+}

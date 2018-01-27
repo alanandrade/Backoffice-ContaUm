@@ -1,0 +1,60 @@
+//Colors
+$primaryC1:           #6f4f8b;
+
+$bluePrimary:       #1a7dd7;
+$blueDark:          #2f3640;
+$destaqueColor:     #fc4349;
+
+
+//Padroes
+$white:             #ffffff;
+$black:             #000000;
+$grey:              #222222;
+$greyLight:         #999999;
+$bgGlobal:          #efefef;
+
+
+.actionHeaderBox{
+  width: 100%;
+  height: 200px;
+  background-color: $bluePrimary;
+  color: $white;
+  padding-top: 20px;
+  @media screen and (max-width: 768px){
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 992px){
+    height: 230px;
+  }
+  @media screen and (min-width: 1920px){}
+  .actionHeaderBox {
+      height: 260px;
+  }
+}
+
+.actionHeader{
+  padding-top: 20px;
+  @media screen and (min-width: 768px){
+    padding-top: 20px;
+  }
+
+  #btns{
+    width: 100%;
+    float: right;
+    text-align: center;
+    @media screen and (min-width:768px){
+      text-align: right;
+    }
+    button{
+      margin: 3px;
+      width: 35%;
+      @media screen and (min-width: 768px) {
+        width: 20%;
+        margin-right: 15px;
+      }
+      @media screen and (min-width: 1366px) {
+        width: 15%;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+//Colors
+$primaryC1:           #6f4f8b;
+
+$bluePrimary:       #1a7dd7;
+$blueDark:          #2f3640;
+$destaqueColor:     #fc4349;
+
+
+//Padroes
+$white:             #ffffff;
+$black:             #000000;
+$grey:              #222222;
+$greyLight:         #999999;
+$bgGlobal:          #efefef;
+
+
+.CardBlue{
+  background-color: $bluePrimary;
+  &:hover{
+    background-color: rgba($bluePrimary, 0.8)
+  }
+}
+
+.CardOrange{
+  background-color: $destaqueColor;
+  &:hover{
+    background-color: rgba($destaqueColor, 0.8)
+  }
+}
+
+.CardPurple{
+  background-color: $primaryC1;
+  &:hover{
+    background-color: rgba($primaryC1, 0.8)
+  }
+}
+
+.CardBlueDark{
+  background-color: $blueDark;
+  &:hover{
+    background-color: rgba($blueDark, 0.8)
+  }
+}
+
+.CardBlue, .CardOrange, .CardPurple, .CardBlueDark{
+  text-align: center;
+  border-radius: 5px;
+  color: $white;
+  h5{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba($black, 0.2);
+    line-height: 20px;
+  }
+  p{
+    padding-top: 25px;
+  }
+}

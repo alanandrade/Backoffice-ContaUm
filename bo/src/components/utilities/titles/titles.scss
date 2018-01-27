@@ -1,0 +1,41 @@
+//Colors
+$primary:           #6f4f8b;
+$dark:              #222222;
+$success:           #4ee2c0;
+$incorrect:         #fd3d50;
+$color-hover:       #fd3d50;
+
+$blue:              #373e4a;
+$blue-dark:         #2f3640;
+$white:             #ffffff;
+$black:             #000000; 
+$grey:              #efefef;
+$grey-dark:         #cecece;
+
+
+.titlesBox{
+  margin-left: 5px;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  width: 96%;
+
+  @media screen and (min-width: 992px){
+    padding: 1%;
+  }
+
+  .titlePrimario{
+    color: $white;
+    margin-bottom: 10px;
+    @media screen and (min-width:1200px){
+      font-size: 1.3em;
+    }
+  }
+  
+  .subtitle{
+    color: $grey;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    @media screen and (min-width: 992px){
+      font-size: 0.9em;
+    }
+  }
+}
